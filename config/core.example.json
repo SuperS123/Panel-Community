@@ -22,7 +22,12 @@
   },
   "discord": {
     "token": "",
-    "guildID": ""
+    "guildID": "",
+    "prefix": "cp!",
+    "embed": {
+      "color": "#BBB",
+      "footer": "ControlPanel.gg"
+    }
   },
   "filesystem": {
     "server_logs": "/tmp/controlpanel"
