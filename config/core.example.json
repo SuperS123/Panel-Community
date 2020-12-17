@@ -24,6 +24,7 @@
     "token": "",
     "guildID": "",
     "prefix": "cp!",
+		"devs": [],
     "embed": {
       "color": "#BBB",
       "footer": "ControlPanel.gg"
