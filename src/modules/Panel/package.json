@@ -1,32 +1,40 @@
 {
-  "name": "control-panel",
-  "version": "1.0.0",
-  "description": "Control Panel is the all-in-one game panel designed to help manage your dedicated servers completely for free.",
-  "main": "server.js",
-  "directories": {
-    "lib": "lib"
-  },
-  "dependencies": {
-    "express": "^4.17.1",
-    "express-session": "^1.17.1",
-    "path": "^0.12.7"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ControlPanel-gg/Panel-Community.git"
-  },
-  "keywords": [
-    "game-panel",
-    "pterodactyl"
-  ],
-  "author": "ControlPanel.gg",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ControlPanel-gg/Panel-Community/issues"
-  },
-  "homepage": "https://github.com/ControlPanel-gg/Panel-Community#readme"
+    "name": "controlpanel",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build",
+        "lint": "vue-cli-service lint"
+    },
+    "dependencies": {
+        "autoprefixer": "^9.8.6",
+        "axios": "^0.21.0",
+        "jquery": "^3.5.1",
+        "node-sass": "^5.0.0",
+        "postcss": "^7.0.35",
+        "postscribe": "^2.0.8",
+        "sass-loader": "^10.1.0",
+        "stylus": "^0.54.8",
+        "stylus-loader": "^3.0.2",
+        "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2",
+        "vue": "^2.6.11",
+        "vue-axios": "^3.2.0",
+        "vue-router": "^3.4.9",
+        "vue-template-compiler": "^2.6.11",
+        "vuex": "^3.6.0"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "~4.5.0",
+        "@vue/cli-plugin-eslint": "~4.5.0",
+        "@vue/cli-plugin-router": "~4.5.0",
+        "@vue/cli-service": "~4.5.0",
+        "@vue/compiler-sfc": "^3.0.0",
+        "@vue/eslint-config-prettier": "^6.0.0",
+        "babel-eslint": "^10.1.0",
+        "eslint": "^6.7.2",
+        "eslint-plugin-prettier": "^3.1.3",
+        "eslint-plugin-vue": "^7.0.0-0",
+        "prettier": "^1.19.1"
+    }
 }
