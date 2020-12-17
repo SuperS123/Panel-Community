@@ -8,4 +8,6 @@ module.exports = async (client) => {
     // Set Status
     await client.user.setActivity(`${prefix}help || v${version}`, { type: 'WATCHING' });
 
+		// Logging Login
+		console.log(`Bot logined as ${client.user.tag}`)
 };

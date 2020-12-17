@@ -15,7 +15,7 @@ const client = new Discord.Client({
 
 client.commands = new Discord.Collection();
 client.aliases = new Discord.Collection();
-client.modules = ["general"]
+client.modules = ["general", "owner"]
 
 const dir = process.cwd() + "/src/modules/Discord/bot";
 
