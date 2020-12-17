@@ -1,0 +1,32 @@
+{
+  "name": "control-panel",
+  "version": "1.0.0",
+  "description": "Control Panel is the all-in-one game panel designed to help manage your dedicated servers completely for free.",
+  "main": "server.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ControlPanel-gg/Panel-Community.git"
+  },
+  "keywords": [
+    "game-panel",
+    "pterodactyl"
+  ],
+  "author": "ControlPanel.gg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ControlPanel-gg/Panel-Community/issues"
+  },
+  "homepage": "https://github.com/ControlPanel-gg/Panel-Community#readme"
+}
