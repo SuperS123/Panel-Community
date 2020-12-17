@@ -9,9 +9,6 @@
     }
   },
   "docker": {
-    "container": {
-      "user": 999
-    },
     "network": {
       "name": "controlpanel_nw"
     },
@@ -19,16 +16,6 @@
     "autoupdate_images": true,
     "timezone_path": "/etc/timezone",
     "interface": "172.18.0.1"
-  },
-  "discord": {
-    "token": "",
-    "guildID": "",
-    "prefix": "cp!",
-		"devs": [],
-    "embed": {
-      "color": "#BBB",
-      "footer": "ControlPanel.gg"
-    }
   },
   "filesystem": {
     "server_logs": "/tmp/controlpanel"

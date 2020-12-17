@@ -10,7 +10,7 @@ __It will include features such as:__
 - Auto Server Deletion 
 - Domain Linking (Reverse Proxy) 
 - Migration Tool 
-- and so much more... 
+- so much more... 
 
 __How much will it cost?__
 - Community ($0.00)
