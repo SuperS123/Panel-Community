@@ -1,7 +1,7 @@
 # ControlPanel.gg
 ControlPanel is a panel for managing games, apis, voice servers, and much more! 
 
-__It will include features such as:__
+## Features
 - Audit Log 
 - Public API 
 - Admin Dashboard
@@ -12,10 +12,41 @@ __It will include features such as:__
 - Migration Tool 
 - so much more... 
 
-__How much will it cost?__
+## Cost
 - Community ($0.00)
 -  Business ($10/month or $5/month) 
 
-__Will I be able to migrate from Pterodactyl v1.0?__
+## FAQ
+
+Q: Will I be able to migrate from Pterodactyl 1.0 
 
 Yes! We are working on a migration script that will take advantage of pterodactyl's v1.0 api!
+
+## Setup
+
+**Directory**
+
+Navigate to the panel UI using the console
+```bash
+cd <panel-directory>/src/modules/Panel
+```
+
+**Development Build**
+
+Then in console type this command to run
+```bash
+npm run serve
+```
+
+**Production Build**
+
+To build to production
+```bash
+npm run build
+```
+
+To run it you have to run these commands
+```bash
+npm i -g serve
+serve -s dist
+```
