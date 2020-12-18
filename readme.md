@@ -6,7 +6,7 @@ __It will include features such as:__
 - Public API 
 - Admin Dashboard
 - Minecraft Plugin Manager
--  Online File Manager 
+- Online File Manager 
 - Auto Server Deletion 
 - Domain Linking (Reverse Proxy) 
 - Migration Tool 
@@ -17,4 +17,5 @@ __How much will it cost?__
 -  Business ($10/month or $5/month) 
 
 __Will I be able to migrate from Pterodactyl v1.0?__
+
 Yes! We are working on a migration script that will take advantage of pterodactyl's v1.0 api!
