@@ -40,5 +40,11 @@
   },
   "uploads": {
     "size_limit": 1024
+  },
+  "livechat": {
+    "enabled": false,
+    "_COMMENT FOR DEVS_": "livechatinc = https://livechatinc.com, chatra = https://chatra.com, tawk = https://www.tawk.to, crisp = https://crisp.chat",
+    "livechatv": "livechatinc", 
+    "api": "API-KEY-HERE"
   }
 }

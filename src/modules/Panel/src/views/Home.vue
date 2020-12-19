@@ -3,6 +3,7 @@
 </template>
 
 <script>
+import './assets/js/livechats.js';
 export default {
   name: "Home",
 };
