@@ -4,4 +4,4 @@ const Database = require('./modules/Database');
 
 global.config = new Config();
 global.hardware = new Hardware();
-global.database = new Database(global.config.get("mysql"));
+global.database = new Database(global.config.get('mysql'));
