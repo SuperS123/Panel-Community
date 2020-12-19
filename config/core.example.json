@@ -37,8 +37,8 @@
   },
   "livechat": {
     "enabled": false,
-    "_COMMENT FOR DEVS_": "1 = livechatinc.com, 2 = https://chatra.com, 3 = https://www.tawk.to, 4 = https://crisp.chat",
-    "livechatv": 1, 
+    "_COMMENT FOR DEVS_": "livechatinc = https://livechatinc.com, chatra = https://chatra.com, tawk = https://www.tawk.to, crisp = https://crisp.chat",
+    "livechatv": "livechatinc", 
     "api": "API-KEY-HERE"
   }
 }
