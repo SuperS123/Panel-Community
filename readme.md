@@ -49,23 +49,29 @@ Setup
 
 Navigate to the Panel UI using the console.
 
-`cd /src/modules/Panel`
+```bash
+cd /src/modules/Panel
+```
 
 ### **Development Build**
 
 In console type this command to run
 
+```bash
 npm run serve  
-  
+```
 
 ### **Production Build**
 
 To build to production run
 
-npm run build  
+```bash
+npm run build
+```
   
 To run it you have to run these commands:
 
-`npm i -g serve`
-
-`serve -s dist`
+```bash
+npm i -g serve
+serve -s dist
+```
